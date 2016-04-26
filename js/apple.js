@@ -2,7 +2,7 @@
  * Created by Administrator on 2016-01-11.
  */
 $(function(){
-   $('.btn').click(function(){
+   $('.btns').click(function(){
         $('.menu ul').finish().slideToggle(500);
 
       if($('.banner').css('display')=='block'){
