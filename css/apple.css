@@ -87,7 +87,7 @@
 
 
 /*banner轮播图*/
-.banner {
+/*.banner {
   min-height: 650px;
   overflow: hidden;
   position: relative;
@@ -190,7 +190,7 @@
 .sige a:last-child {
   background-image: url("../images/hi4.1.jpg");
 }
-
+*/
 footer{
     margin-top: 1px;
     width: 100%;
