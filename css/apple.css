@@ -1,0 +1,384 @@
+@font-face {
+    font-family:'PingHei';
+    font-style:normal;
+    font-weight:200;
+    src:local('☺︎'), url("font/PingHei-light.woff") format("woff");
+}
+.logo{
+    background: url('../img/logo.svg') center no-repeat;
+}
+.search{
+    background: url('../img/search.svg') center no-repeat;
+}
+.search input{
+    width: 70%;
+    padding: 10px 0;
+    display: none;
+    background: #333;
+    border: none;
+}
+.shop{
+    background: url('../img/shop.svg') center no-repeat;
+    font-size: 20px;
+}
+
+.head{
+    width: 100%;
+    height: 44px;
+    background: #333;
+}
+.head-con{
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 auto;
+    max-width: 1024px;
+    height: 100%;
+    color:#eee;
+    font-family: "PingHei","Helvetica Neue","Helvetica","STHeitiSC-Light","Arial",sans-serif;
+    line-height: 44px;
+    text-align: center;
+}
+.row>li:hover{
+    color:#ccc;
+}
+.menu ul{
+    padding: 0 48px;
+    text-align: left;
+    width: 100%;
+    position: absolute;
+    top: 44px;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    height: auto;
+    color: #fff;
+    background: #000;
+    display: none;
+    z-index: 100;
+}
+.menu li{
+    cursor: pointer;
+    padding: 2px 0;
+    border-bottom: 1px solid dimgray;
+}
+.menu li:hover{
+    color: #ccc;
+}
+@media screen and (max-width:768px){
+    .hengxian{
+        position:absolute;
+        top:84px;
+        left:0px;
+        width:700px;
+        height:1px;
+        border-bottom:1px solid #fff;
+        z-index:10
+    }
+}
+
+
+/*banner轮播图*/
+.banner {
+  min-height: 650px;
+  overflow: hidden;
+  position: relative;
+}
+.btn {
+  position: absolute;
+  left: 50%;
+  margin-left: -50px;
+  bottom: 20px;
+  width: 100px;
+  height: 10px;
+  z-index: 100;
+}
+.btn li {
+  float: left;
+  width: 7px;
+  height: 7px;
+  margin-right: 10px;
+  background: #999;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 1px solid #999999;
+}
+.btn .ht {
+  width: 8px;
+  height: 8px;
+  background: #fff;
+  border: 1px solid #08c;
+}
+.bannerimg {
+  width: 100%;
+  position: relative;
+}
+.bannerimg a {
+  display: block;
+  background-image: url("../img/banner1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: absolute;
+  left: 100%;
+  width: 100%;
+  height: 650px;
+  background-size: 100%;
+}
+.bannerimg a:nth-child(2) {
+  background-image: url("../img/banner2.jpg");
+}
+.bannerimg a:nth-child(3) {
+  background-image: url("../img/banner3.jpg");
+}
+.bannerimg a:last-child {
+  background-image: url("../img/banner4.jpg");
+}
+.btn2 {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  left: 0px;
+  top: 50%;
+  margin-top: -64px;
+  z-index: 900;
+}
+.btn2 a {
+  width: 67px;
+  height: 100%;
+  color: #A3A3A3;
+  font-size: 72px;
+  text-align: center;
+  line-height: 128px;
+  font-weight: 100;
+  display: none;
+}
+.btn2 .lbtn {
+  float: left;
+}
+.btn2 .rbtn {
+  float: right;
+}
+.sige {
+  margin: 0!important;
+  padding: 0!important;
+  height: 200px!important;
+}
+.sige a {
+  padding: 0!important;
+  height: 200px;
+  float: left;
+  background-image: url("../images/hi2.1.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 736px 200px;
+  border-bottom: 2px solid #fff;
+}
+.sige a:nth-child(2) {
+  background-image: url("../images/hi1.1.jpg");
+}
+.sige a:nth-child(3) {
+  background-image: url("../images/hi3.1.jpg");
+}
+.sige a:last-child {
+  background-image: url("../images/hi4.1.jpg");
+}
+
+footer{
+    margin-top: 1px;
+    width: 100%;
+    font-family: "PingHei","Helvetica Neue","Helvetica","STHeitiSC-Light","Arial",sans-serif;
+    min-width: 320px;
+    font-size: 12px;
+    line-height: 1.667;
+    font-weight: 400;
+    color: #666;
+    position: relative;
+    background: #f2f2f2;
+    box-sizing: content-box;
+    overflow: hidden;
+}
+.foot-con{
+    padding: 0 16px;
+    max-width: 980px;
+    margin: 0 auto;
+}
+.foot-con{
+    width: 100%;
+}
+.foot-con .col{
+    width: 100%;
+    float: left;
+}
+.foot-con .col ul{
+    display: none;
+}
+.foot-con .col li{
+    padding:5px;
+}
+.foot-con .col li a{
+    color: #666;
+}
+.foot-con .col li a:hover{
+    text-decoration: underline;
+}
+.foot-con .col p{
+    font-size: 14px;
+    line-height: 2;
+    color: #333;
+    padding: 0;
+    margin:0;
+    border-bottom: 1px solid #ccc;
+    cursor: pointer;
+}
+.foot-con .col .jia{
+    float: right;
+}
+
+
+
+@media screen and (min-width: 736px){
+    .banner{
+        height: 78%;
+        min-height: 605px;
+    }
+    .banner .small{
+        min-height: 605px;
+    }
+    .text{
+        padding-top: 60px;
+    }
+    .text h1{
+        font-size: 64px;
+    }
+    .text h2{
+        font-size: 24px;
+    }
+    .banner .img{
+        background: url("../img/banner1l.png") center -25px no-repeat;
+        background-size:1400px 596px ;
+    }
+    .inner{
+        width: 50%;
+    }
+    #one{
+        background: url("../img/1.jpg") center no-repeat;
+    }
+    #two{
+        background: url("../img/2.jpg") center no-repeat;
+    }
+    #three{
+        background: url("../img/3.jpg") center no-repeat;
+    }
+    #four{
+        background: url("../img/4.jpg") center no-repeat;
+    }
+
+
+    .foot-con .col{
+        width: 20%;
+        padding-top: 10px;
+    }
+    .foot-con .col ul{
+        display: block!important;
+        margin-bottom: 20px;
+    }
+    .foot-con .col li{
+        padding:0;
+    }
+    .foot-con .col p{
+       cursor: auto;
+        border:none!important;
+
+    }
+    .foot-con .col .jia{
+        display: none;
+    }
+
+
+
+
+
+
+
+}
+
+
+
+@media screen and (min-width: 1068px) {
+    .inner{
+        width: 25%;
+    }
+    .banner .img{
+        background: url("../img/banner1l.png") center -30px no-repeat;
+        background-size:1433px 610px ;
+    }
+}
+.footer {
+  width: 100%;
+  margin: 20px auto;
+  text-align: left;
+}
+.footer div {
+  font-size: 10px;
+  color: #999;
+}
+.footer .footer1 {
+  border-bottom: 1px solid #e3e3e3;
+  color: #999;
+  padding-bottom: 10px;
+}
+.footer .footer1 a {
+  color: #08c;
+}
+.footer .footer1 a:hover {
+  text-decoration: underline;
+}
+.footer .footer2 {
+  padding-bottom: 10px;
+}
+.footer .footer2 div {
+  display: inline-block;
+  margin-right: 26px;
+  line-height: 2.666667;
+}
+.footer .footer2 :last-child {
+  width: 16px;
+  height: 16px;
+  background: url(../img/16.png) no-repeat;
+  vertical-align: top;
+  background-size: 16px 16px;
+  float: right;
+  margin-top: 10px;
+  border-right: 0px;
+}
+.footer .footer2 :nth-last-child(2) {
+  border-right: 0px;
+}
+.footer .footer2 a {
+  border-right: 1px solid #d6d6d6;
+  margin-right: 10px;
+  padding-right: 12px;
+  white-space: nowrap;
+  color: #999;
+}
+.footer .footer2 a:hover {
+  text-decoration: underline;
+}
+.footer .footer3 {
+  padding-bottom: 10px;
+}
+.footer .footer3 a {
+  color: #999;
+}
+.footer .footer3 a:hover {
+  text-decoration: underline;
+}
+/*小屏*/
+@media screen and (max-width: 766px) {
+  .footer .footer2 div {
+    width: 100%;
+  }
+  .footer .footer2 :last-child {
+    width: 100%;
+    background-position: 10px 0px;
+  }
+}
