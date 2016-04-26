@@ -17,6 +17,8 @@
     background: #333;
     border: none;
 }
+
+
 .shop{
     background: url('../img/shop.svg') center no-repeat;
     font-size: 20px;
@@ -69,11 +71,18 @@
         position:absolute;
         top:84px;
         left:0px;
-        width:700px;
+        width:248px;
         height:1px;
         border-bottom:1px solid #fff;
         z-index:10
     }
+/*    header{
+      width:248px;
+  overflow:hidden;
+   }
+   footer{
+  overflow:hidden;
+}*/
 }
 
 
